@@ -39,31 +39,34 @@
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 
-var merge = function (nums1, m, nums2, n) {
-  for (let i = 0; i < n; i++) {
-    if (m > 0) {
-      for (let x = 0; x < m; x++) {
-        if (nums2[i] < nums1[x]) {
-          var temp = nums1[x];
-          nums1[x] = nums2[i];
+function teste() {
+  var nums1 = [1, 2, 3, 0, 0, 0];
+  var nums2 = [2, 5, 6];
+  var m = 3;
+  var n = 3;
 
-          nums2.shift();
-          n = n - 1;
-          m = m + 1;
+  let i = m - 1; // index of last element in nums1
+  let j = n - 1; // index of last element in nums2
+  let k = m + n - 1; // index of last element in merged array
 
-          for (let y = x; y < nums1.length - x; y++) {
-            var temp2 = nums1[y + 1];
-            nums1[y + 1] = temp;
-            temp = temp2;
-          }
-        } else if (nums2[i] > nums1[x] && nums2[i] > nums1[m - 1]) {
-          nums1[m] = nums2[i];
-          m = m + 1;
-        }
-      }
+  while (i >= 0 && j >= 0) {
+    if (nums1[i] > nums2[j]) {
+      console.log(nums1[i] + " > " + nums2[j]);
+      console.log("I é igual a " + i);
+      nums1[k--] = nums1[i--];
     } else {
-      nums1[0] = nums2[i];
-      m = m + 1;
+      console.log(nums1[i] + " < " + nums2[j]);
+      console.log("J é igual a " + j);
+      nums1[k--] = nums2[j--];
     }
   }
-};
+
+  // If there are remaining elements in nums2, they need to be copied into nums1
+  while (j >= 0) {
+    nums1[k--] = nums2[j--];
+  }
+
+  console.log(nums1);
+}
+
+teste();
