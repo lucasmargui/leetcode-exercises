@@ -16,6 +16,11 @@ Online platform for coding interview preparation. The service provides coding an
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a1f5af79-7978-4da0-bba8-6d6a49c0d3be)
 
+##  Binary Tree Inorder Traversal
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/5ad59a4d-a349-420e-bb31-b3595a9f560e)
+
+
 
 
 
