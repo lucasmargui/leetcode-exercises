@@ -48,6 +48,26 @@
 
 // Follow up: If this function is called many times, how would you optimize it?
 
+// Javascript
+// /**
+//  * @param {number} n
+//  * @return {number}
+//  */
+// var hammingWeight = function(n) {
+//     let count = 0;
+//     while(n > 0){
+//         if((n % 2) === 1) count++;
+//         n = Math.floor(n / 2);
+//     }
+//     return count;
+// };
+
+
+// var hammingWeight = function(n) {
+//   if(n < 2) return n;
+//   return n%2 + hammingWeight(n>>1);
+// };
+
 
 /**
  * @param {number} n
