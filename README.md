@@ -21,6 +21,11 @@ Online platform for coding interview preparation and the service provides coding
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/5ad59a4d-a349-420e-bb31-b3595a9f560e)
 
+## Bitwise 
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/32aae4e8-b794-4fba-8ef9-8e75cb8b0818)
+
+
 
 
 
