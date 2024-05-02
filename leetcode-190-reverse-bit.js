@@ -41,6 +41,8 @@
 //   return result >>> 0;
 // }
 
+//https://www.digitalocean.com/community/tutorials/using-bitwise-operators-in-javascript
+
 
 var reverseBits = function(n) {
   var result = 0;
