@@ -1,6 +1,7 @@
 # Leetcode 
 
-Online platform for coding interview preparation and the service provides coding and algorithmic problems intended for users to practice coding
+Online platform for coding interview preparation and the service provides coding and algorithmic problems intended for users to practice coding;
+
 
 
 ## Merged Linked List Node
