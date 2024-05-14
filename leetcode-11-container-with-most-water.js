@@ -1,99 +1,56 @@
-// Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
+// You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
 
-// Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
+// Find two lines that together with the x-axis form a container, such that the container contains the most water.
 
-// The tests are generated such that there is exactly one solution. You may not use the same element twice.
+// Return the maximum amount of water a container can store.
 
-// Your solution must use only constant extra space.
+// Notice that you may not slant the container.
 
  
 
 // Example 1:
 
-// Input: numbers = [2,7,11,15], target = 9
-// Output: [1,2]
-// Explanation: The sum of 2 and 7 is 9. Therefore, index1 = 1, index2 = 2. We return [1, 2].
+
+// Input: height = [1,8,6,2,5,4,8,3,7]
+// Output: 49
+// Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
 // Example 2:
 
-// Input: numbers = [2,3,4], target = 6
-// Output: [1,3]
-// Explanation: The sum of 2 and 4 is 6. Therefore index1 = 1, index2 = 3. We return [1, 3].
-// Example 3:
+// Input: height = [1,1]
+// Output: 1
+ 
 
-// Input: numbers = [-1,0], target = -1
-// Output: [1,2]
-// Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We return [1, 2].
+// Constraints:
+
+// n == height.length
+// 2 <= n <= 105
+// 0 <= height[i] <= 104
+
 
 /**
- * @param {number[]} numbers
- * @param {number} target
- * @return {number[]}
+ * @param {number[]} height
+ * @return {number}
  */
-
-
-var twoSum = function(numbers, target) {
-    let left = 0;
-    let right = numbers.length - 1;
-    
-    while(left < right){
-        let total = numbers[left] + numbers[right];
-        if(total == target){
-            return [left + 1, right + 1]
-        } else if (total > target){
-            right -=1
-        } else{
-            left += 1
+var maxArea = function(height) {
+    var left = 0 ;
+    var right = height.length - 1;
+    var sum = 0;
+    var index = 0;
+      while( left < right){
+        if(height[left] <= height[right]){
+            let calc = height[left] * (right - left);
+            sum = Math.max(sum,calc)
+            left++;
         }
-    }
+        else if(height[left] > height[right]){
+            let calc = height[right] * (right - left);
+            sum = Math.max(sum,calc)
+            right--;
+        }
+      }
+        return sum;
+ 
+
+
+    
 };
-
-// var twoSum = function(numbers, target) {
-
-
-//     var index = 0;
-//     var findSum = 0;
-
-//     var startSubArray;
-//     var finalSubArray;
-//     var middleSubArray;
-//     var logIndex;
-
-//     var log = Math.floor(Math.log2(numbers.length));
-    
-
-
-//     while(index < numbers.length){
-        
-//         findSum = target - numbers[index];
-//         startSubArray = 0;
-//         finalSubArray = numbers.length;
-//         middleSubArray = Math.floor((startSubArray + finalSubArray) / 2);
-//         logIndex = 0;
-
-//         while(logIndex <= log){
-         
-//             if(findSum < numbers[middleSubArray]){
-//                 finalSubArray = middleSubArray;
-//                 middleSubArray = Math.floor((startSubArray + finalSubArray) / 2);
-
-//             }else if(findSum > numbers[middleSubArray]){
-//                 startSubArray = middleSubArray;
-//                 middleSubArray = Math.floor((startSubArray + finalSubArray) / 2);
-                
-//             }else if(findSum == numbers[middleSubArray]){
-                
-                
-//                 return numbers[index] != numbers[middleSubArray] ? [(index + 1), (middleSubArray + 1)] : [(index + 1), (index + 2)]
-//             }
-
-           
-
-//             logIndex++;
-//         }
-
-        
-//         index++;
-
-//     }
-    
-// };
