@@ -31,6 +31,36 @@
  * @return {boolean}
  */
 var searchMatrix = function(matrix, target) {
+    let start = 0, end = matrix.length * matrix[0].length - 1;
+    //console.log(start, end)
+
+    while (start <= end) {
+        let mid = Math.floor((end + start) / 2);
+        let midRow = Math.floor(mid / matrix[0].length);
+        let midCol = Math.floor(mid % matrix[0].length);
+        //console.log(`start: ${start}, end: ${end}, mid: ${mid}, midRow: ${midRow}, midCol: ${midCol}`)
+
+        if (matrix[midRow][midCol] === target) return true;
+
+        if (matrix[midRow][midCol] > target) {
+            end = mid - 1;
+        } else {
+            start = mid + 1;
+        }
+    }
+
+    //console.log(start, end);
+
+    return false;
+};
+
+
+/**
+ * @param {number[][]} matrix
+ * @param {number} target
+ * @return {boolean}
+ */
+var searchMatrix = function(matrix, target) {
 
     var rowBase = matrix.length;
     var colBase = matrix[0].length;
