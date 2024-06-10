@@ -18,70 +18,39 @@
 
 // Input: nums = [], target = 0
 // Output: [-1,-1]
- 
 
-// Constraints:
 
-// 0 <= nums.length <= 105
-// -109 <= nums[i] <= 109
-// nums is a non-decreasing array.
-// -109 <= target <= 109
-
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-var searchRange = function(nums, target) {
-
-    var startNum, endNum;
-
-    var left = 0;
-    var leftStart = 0;
-    var leftEnd = 0;
-    var right = nums.length - 1;
-    var rightStart = nums.length - 1;
-    var rightEnd = nums.length - 1;
-
-    var mid;
-    var midStart;
-    var midEnd;
-
+var searchRange = (nums,target) => {
+    let left = 0;
+    let right = nums.length - 1;
+    let first = -1;
     while(left <= right){
+        let mid = Math.floor((left + right) / 2);
 
-        mid = Math.floor(left + right / 2)
-
-        if(nums[mid] == target){
-
-            midStart = Math.floor(leftStart + rightStart / 2)
-            midEnd = Math.floor(leftEnd + rightEnd / 2)
-
-            startNum = midStart;
-            endNum = midEnd;
-
-            if(nums[midStart - 1] == target){
-                rightStart = midStart - 1
-                startNum = midStart - 1;
-            }
-
-            if(nums[midEnd + 1] == target){
-                leftEnd = midEnd + 1
-                startEnd = midEnd + 1;
-            }
-
-
-
-        }else if(target < nums[mid]){
-             right = mid - 1; 
+        if(nums[mid] === target){
+            first = mid;
+            right = mid - 1;
+        }else if(nums[mid] < target){
+            left = mid + 1
         }else{
-             left = mid + 1;
+            right = mid - 1
         }
-
-        
-
-
-
     }
 
-    
-};
+    left = 0;
+    right = nums.length - 1;
+    let last = -1;
+    while(left <= right){
+        let mid = Math.floor((left + right) / 2);
+
+        if(nums[mid] === target){
+            last = mid;
+            left = mid + 1;
+        }else if(nums[mid] < target){
+            left = mid + 1;
+        }else{
+            right = mid - 1
+        }
+    }
+    return [first,last];
+}
