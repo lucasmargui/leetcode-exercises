@@ -69,18 +69,32 @@
 // };
 
 
-/**
- * @param {number} n
- * @return {number}
- */
- var hammingWeight = function(n) {
+// /**
+//  * @param {number} n
+//  * @return {number}
+//  */
+//  var hammingWeight = function(n) {
 
 
 
 
-  var arrayN = n.toString(2).split('');
+//   var arrayN = n.toString(2).split('');
 
-  const result = arrayN.filter((bit) => bit != '0');
+//   const result = arrayN.filter((bit) => bit != '0');
   
-  return result.length;
+//   return result.length;
+// };
+
+
+
+var hammingWeight = function(n) {
+  if(n < 2) return n;
+  //Shift number left to right in 1
+  //binary >> remove last bit               hammingWeight(n>>1)
+  //10011  >> shift 1                       hammingWeight(1001)  
+  //1001   >> shift 1                       hammingWeight(100) 
+  //100    >> shift 0                       hammingWeight(10) 
+  //10     >> shift 0                       hammingWeight(1)
+  //1      >> shift 1
+  return n%2 + hammingWeight(n>>1);
 };
