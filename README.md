@@ -31,6 +31,9 @@ Online platform for coding interview preparation and the service provides coding
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/32aae4e8-b794-4fba-8ef9-8e75cb8b0818)
 
+## Word Break  139
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/59ea041b-b305-4b0a-9a4c-b7968d4aa6ea)
 
 
 
