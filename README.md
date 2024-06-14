@@ -36,6 +36,10 @@ Online platform for coding interview preparation and the service provides coding
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/59ea041b-b305-4b0a-9a4c-b7968d4aa6ea)
 
 
+## Coin Change
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a0ee261d-53cc-40bc-9912-31e830e7cdcb)
+
 
 
 
