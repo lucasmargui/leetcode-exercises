@@ -40,6 +40,11 @@ Online platform for coding interview preparation and the service provides coding
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a0ee261d-53cc-40bc-9912-31e830e7cdcb)
 
+## Longest Subsequence
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/9fc0060e-c2b8-4069-9dd0-3d6f2c53ba28)
+
+
 
 
 
