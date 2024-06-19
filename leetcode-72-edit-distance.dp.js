@@ -1,46 +1,60 @@
-// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+// 72. Edit Distance
+// Medium
+// Topics
+// Companies
+// Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.
 
-// You may assume that each input would have exactly one solution, and you may not use the same element twice.
+// You have the following three operations permitted on a word:
 
-// You can return the answer in any order.
-
+// Insert a character
+// Delete a character
+// Replace a character
  
 
 // Example 1:
 
-// Input: nums = [2,7,11,15], target = 9
-// Output: [0,1]
-// Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+// Input: word1 = "horse", word2 = "ros"
+// Output: 3
+// Explanation: 
+// horse -> rorse (replace 'h' with 'r')
+// rorse -> rose (remove 'r')
+// rose -> ros (remove 'e')
 // Example 2:
 
-// Input: nums = [3,2,4], target = 6
-// Output: [1,2]
-// Example 3:
-
-// Input: nums = [3,3], target = 6
-// Output: [0,1]
+// Input: word1 = "intention", word2 = "execution"
+// Output: 5
+// Explanation: 
+// intention -> inention (remove 't')
+// inention -> enention (replace 'i' with 'e')
+// enention -> exention (replace 'n' with 'x')
+// exention -> exection (replace 'n' with 'c')
+// exection -> execution (insert 'u')
  
- var twoSum = function(nums, target) {
+var minDistance = function(word1, word2) {
 
-  var i = 0;
-  var indices = [];
-  while(i < nums.length){
-      var x = i + 1;
+    const cache = Array.from({ length: word1.length + 1 }, () => Array(word2.length + 1).fill(Infinity));
+    
+    for (let j = 0; j <= word2.length; j++) {
+        cache[word1.length][j] = word2.length - j;
+    }
+    
+    for (let i = 0; i <= word1.length; i++) {
+        cache[i][word2.length] = word1.length - i;
+    }
+    
+    for (let i = word1.length - 1; i >= 0; i--) {
+        for (let j = word2.length - 1; j >= 0; j--) {
+            if (word1[i] === word2[j]) {
+                cache[i][j] = cache[i + 1][j + 1];
+            } else {
+                cache[i][j] = 1 + Math.min(cache[i + 1][j], cache[i][j + 1], cache[i + 1][j + 1]);
+            }
+        }
+    }
+    
+    return cache[0][0];
 
-      while(x < nums.length){
-         
-          if(nums[i] + nums[x] == target){
-            indices = [i,x];
-            break;
-          
-         }
-         x++;
-      }
+    
 
-      i++;   
 
-  }
-
-     return indices;
- 
 };
