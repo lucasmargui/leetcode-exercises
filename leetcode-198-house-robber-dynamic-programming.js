@@ -86,31 +86,40 @@
     //total_loot = [2,7,7,8,11]
 
 
-
     var rob = function(nums) {
 
-    
         const numsLen = nums.length;
     
+        //Store indexes computed
         const memo = {};
     
+    
+        //1. Each house presents two possibilities
+        //   (a) => the house was robbed so we have to jump to another house that is not adjacent 
+        //   (b) => the house was not robbed so we have to jump to next house
+        
+        //  Each choice generates 2 more choices creating a tree and when we reach the end we generate the base cases
         var dfs = (index) => {
     
+        //2. If index was computed return the max totalSum of this index
             if(index in memo){
                 return memo[index];
             }
     
+        //3. Base case, ending the loop 
             if(index >= numsLen){
                 return 0;
             }
      
             let totalSum = 0;
-    
+        //4. Two possibilities
             var houserobbed = dfs(index + 2) + nums[index];
             var housepulled = dfs(index + 1);
     
+        //5. Return two possibilities and choose the max
             totalSum = Math.max(houserobbed,housepulled);
     
+        //6. Store the totalSum in the cache
             memo[index] = totalSum;
     
             return totalSum;
@@ -121,3 +130,5 @@
     
     
     }
+    
+    
