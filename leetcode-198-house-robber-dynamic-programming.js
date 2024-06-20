@@ -86,6 +86,50 @@
     //total_loot = [2,7,7,8,11]
 
 
+
+    // var rob = function(nums) {
+
+    //     const numsLen = nums.length;
+        
+    //     //Creating 2 additional spaces for base cases where initially the thief can decide to rob the house or jump to the next house
+        
+    //     //First base case
+    //     //  When i == numsLen - 1 
+    //     //      houserobbed = first house + 0;
+    //     //      houseskipped = inexistent house
+    //     //      dp[i] = totalsum is total amount from the first house 
+    //     //Second base case
+    //     //  When i == numslen - 2
+    //     //      houserobbed = second house + 0;
+    //     //      houseskipped = total sum if robbed the first house
+    //     //      dp[i] = compare total sum houserobbed and houseskipped to determine which house will we rob first
+    //     const dp = new Array(numsLen + 2).fill(0);
+    
+    
+    //     for(let i = numsLen - 1; i >= 0; i--){
+    
+    //         let totalSum = 0;
+    
+    //         let houserobbed = nums[i] + dp[i + 2];
+    //         let houseskipped = dp[i + 1];
+    
+    //         totalSum = Math.max(houserobbed,houseskipped) 
+    
+    //         dp[i] = totalSum;
+    
+    //     }
+    
+    
+    
+    //     return dp[0]
+    
+       
+    
+    
+    // }
+       
+
+
     var rob = function(nums) {
 
         const numsLen = nums.length;
