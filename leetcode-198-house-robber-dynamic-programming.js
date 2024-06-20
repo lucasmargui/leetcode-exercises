@@ -37,30 +37,30 @@
 //     return memo[idx] = Math.max(sumIfSkipped, sumIfRobbed);
 // };
 
-var rob = function(nums) {
+// var rob = function(nums) {
 
-    //If only 1 element, just return it
-    if(nums.length < 2){
-        return nums[0];
-    }
+//     //If only 1 element, just return it
+//     if(nums.length < 2){
+//         return nums[0];
+//     }
 
-    //Create array to store the maximum loot at each index
-    var total_loot = new Array(nums.length).fill(0);
+//     //Create array to store the maximum loot at each index
+//     var total_loot = new Array(nums.length).fill(0);
 
-    //Memoize maximum loots at first 2 indexes
-    total_loot[0] = nums[0];
-    total_loot[1] = Math.max(nums[0], nums[1]);
+//     //Memoize maximum loots at first 2 indexes
+//     total_loot[0] = nums[0];
+//     total_loot[1] = Math.max(nums[0], nums[1]);
 
-    //Use them to fill complete array
-    for(let i = 2; i < nums.length; i++){
+//     //Use them to fill complete array
+//     for(let i = 2; i < nums.length; i++){
         
-        //Core logic
-        total_loot[i] = Math.max(total_loot[i-2] + nums[i], total_loot[i - 1])
-    }
+//         //Core logic
+//         total_loot[i] = Math.max(total_loot[i-2] + nums[i], total_loot[i - 1])
+//     }
 
-    return total_loot[nums.length - 1]
+//     return total_loot[nums.length - 1]
 
-}
+// }
 
 
 
@@ -84,3 +84,40 @@ var rob = function(nums) {
     //total_loot[i] = max(total_loot[i-2] + houses[i], total_loot[i-1])
     //total_loot[i] = max(11, 7)
     //total_loot = [2,7,7,8,11]
+
+
+
+    var rob = function(nums) {
+
+    
+        const numsLen = nums.length;
+    
+        const memo = {};
+    
+        var dfs = (index) => {
+    
+            if(index in memo){
+                return memo[index];
+            }
+    
+            if(index >= numsLen){
+                return 0;
+            }
+     
+            let totalSum = 0;
+    
+            var houserobbed = dfs(index + 2) + nums[index];
+            var housepulled = dfs(index + 1);
+    
+            totalSum = Math.max(houserobbed,housepulled);
+    
+            memo[index] = totalSum;
+    
+            return totalSum;
+    
+        }
+    
+        return dfs(0);
+    
+    
+    }
