@@ -32,7 +32,7 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
 
  </details>
 
-#### Remove Duplicates
+#### 1. Remove Duplicates
   <details>
   <summary>Show content</summary>
     
@@ -40,7 +40,7 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
     
   </details>
 
-#### Check Palindrome
+#### 2. Check Palindrome
   <details>
   <summary>Show content</summary>
   
@@ -48,7 +48,7 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
   
   </details>
 
-#### Container with most Water 
+#### 3. Container with most Water 
 
   <details>
   <summary>Show content</summary>
@@ -60,6 +60,39 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
 
 
 ## Sliding Window
+
+The "sliding window" technique is an approach used to efficiently solve problems involving subarrays or substrings within an array or string. The main idea is to use a window that moves across the dataset, maintaining a fixed range of elements and updating the conditions as needed.
+
+Features of Sliding Window
+Efficiency: Reduces time complexity in many cases from O(n^2) to O(n).
+Applications: Often used to solve subarray sum problems, find substrings, or any situation where we need to examine all elements in a continuous range.
+Flexibility: Can be used on both arrays and strings.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/6e6c1792-acc3-4c4e-87ab-a58a6549df33)
+
+
+#### 1. Minimum Size Subarray Sum
+
+<details>
+    
+<summary>Show content</summary>
+    
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/bf9fc408-e378-4e0f-b83a-81465ac7513d)
+    
+</details>
+
+#### 2. Longest Substring Without Repeating Characters
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/70ca3fba-5500-4a4f-afb9-438afd9ecbc2)
+
+</details>
+
+
+## Matrix
 ## Depth-First Search
 ## Breadth-First Search
 ## Hashmap
