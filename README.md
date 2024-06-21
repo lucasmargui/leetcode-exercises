@@ -16,7 +16,7 @@ Both from the beginning: One pointer can be slower or faster than the other, use
 
 Initialize two pointers: one at the beginning (left) and one at the end (right) of the array.
 
-#### Check target sum
+#### 1. Check target sum
 
 <details>
 <summary>Show content</summary>
@@ -32,7 +32,7 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
 
  </details>
 
-#### 1. Remove Duplicates
+#### 2. Remove Duplicates
   <details>
   <summary>Show content</summary>
     
@@ -40,7 +40,7 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
     
   </details>
 
-#### 2. Check Palindrome
+#### 3. Check Palindrome
   <details>
   <summary>Show content</summary>
   
@@ -48,7 +48,7 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
   
   </details>
 
-#### 3. Container with most Water 
+#### 4. Container with most Water 
 
   <details>
   <summary>Show content</summary>
