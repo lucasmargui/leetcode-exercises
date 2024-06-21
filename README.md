@@ -3,48 +3,27 @@
 Online platform for coding interview preparation and the service provides coding and algorithmic problems intended for users to practice coding.
 
 
-
-## Merged Linked List Node
-
-## Iterative
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/57b690be-0ea5-40be-8689-c3aec8adfa4e)
-
-## Recursive
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/092f93de-7ec5-457e-bf60-eec1ee4ecaeb)
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a826416f-651b-4748-a318-0053f342256b)
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/4ab701b7-9d4f-4b91-904e-ce471c244f48)
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a1f5af79-7978-4da0-bba8-6d6a49c0d3be)
-
-##  Binary Tree Inorder Traversal
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/5ad59a4d-a349-420e-bb31-b3595a9f560e)
-
-##  Binary Tree 105
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/28176545-2753-4124-b257-a5de21a0da75)
-
-
-## Bitwise 
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/32aae4e8-b794-4fba-8ef9-8e75cb8b0818)
-
-## Word Break  139
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/59ea041b-b305-4b0a-9a4c-b7968d4aa6ea)
-
-
-## Coin Change
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a0ee261d-53cc-40bc-9912-31e830e7cdcb)
-
-## Longest Subsequence
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/9fc0060e-c2b8-4069-9dd0-3d6f2c53ba28)
-
-
+## Array
+## Two Pointers
+## Sliding Window
+## Depth-First Search
+## Breadth-First Search
+## Hashmap
+## Intervals
+## Linked List
+## Binary Tree General
+## Binary Tree BFS
+## Binary Search Tree
+## Graph
+## Graph BFS
+## Trie
+## Backtracking
+## Divid e Conquer
+## Kadane´s Algorithm
+## Binary tree
+## Bit Manipulation
+## One Dimensional Dynamic Programing
+## Multidimensional Dynamic Programing
 
 
 
