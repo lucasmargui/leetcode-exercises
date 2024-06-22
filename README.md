@@ -165,10 +165,16 @@ Given an m x n matrix, return all elements of the matrix in spiral order.
 
 Depth-First Search (DFS) is an algorithm used to traverse or search for elements in data structures, such as graphs and trees. DFS explores as deeply as possible along each branch before backtracking. It uses a stack approach (LIFO - Last In, First Out) to remember the vertices to be explored, which can be implemented recursively or iteratively.
 
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/1282a64e-be66-4a92-b6ca-516e467985d0)
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/75339a61-9373-468f-bc5c-b040b07c4418)
 
 
 ## Breadth-First Search
+
+Breadth-First Search (BFS) is a search algorithm used to explore graphs or trees. It starts at a root node and explores all its neighbors at the current level before moving to neighbors at the next level. This means that BFS visits all nodes at a level before going to the next deeper level.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/b9ba6400-73c2-42f7-9b5c-9c90e07d3419)
+
+
 ## Hashmap
 ## Intervals
 ## Linked List
