@@ -93,6 +93,74 @@ Flexibility: Can be used on both arrays and strings.
 
 
 ## Matrix
+
+An Matrix is a data structure that stores elements in a two-dimensional grid. Each element is identified by two indices: one for the row and one for the column. Matrices are widely used in various applications such as image processing, graphics, scientific simulations, and linear algebra
+
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/9b0f8051-5bef-470a-bb1d-1a34a35a7258)
+
+
+
+
+#### 1. Rotate Image
+
+<details>
+    
+<summary>Show content</summary>
+
+You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
+
+You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/05543586-77c2-4222-879a-5d53d0e91909)
+
+
+- Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+- Output: [[7,4,1],[8,5,2],[9,6,3]]
+
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/8f964430-2f67-4ad6-9115-d0090f684358)
+
+
+</details>
+
+#### 2. Set Matrix Zeroes
+
+<details>
+    
+<summary>Show content</summary>
+
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/dfcb9248-91eb-4aff-8597-06b1fdbfe834)
+
+- Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
+- Output: [[1,0,1],[0,0,0],[1,0,1]]
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e27874f9-1927-408c-9a62-f97e312b7951)
+  
+</details>
+
+
+#### 3. Spiral Matrix
+
+<details>
+    
+<summary>Show content</summary>
+
+Given an m x n matrix, return all elements of the matrix in spiral order.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/157a56c8-aef2-4f32-9872-f4aa0a774bcf)
+
+
+- Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+- Output: [1,2,3,6,9,8,7,4,5]
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/60ed867b-97be-420e-9e0f-0614f77554de)
+
+</details>
+
+
 ## Depth-First Search
 ## Breadth-First Search
 ## Hashmap
