@@ -176,6 +176,9 @@ Breadth-First Search (BFS) is a search algorithm used to explore graphs or trees
 
 
 ## Hashmap
+
+A HashMap is a data structure that associates keys with values. It is implemented using a hash table that allows fast data retrieval.
+
 ## Intervals
 ## Linked List
 ## Binary Tree General
