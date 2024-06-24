@@ -526,6 +526,141 @@ Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
 </details>
 
 ## Binary Tree General
+
+A binary tree is a hierarchical structure composed of nodes, where each node has at most two children, called left child and right child. This structure is used to organize data in a way that facilitates search, insertion and deletion operations, which can be carried out efficiently.
+
+Basic concepts:
+- Root: The main node of the tree.
+- Node: Each element of the tree.
+- Child: A node connected to another node directly above it.
+- Parent: The node that has children.
+- Leaf: A node that has no children.
+- Subtree: A tree formed by a node and its descendants
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e85e316a-fa8f-407d-98d8-1514a7201814)
+
+
+#### 1. Maximum Depth of Binary Tree
+
+<details>
+    
+<summary>Show content</summary>
+
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/ba5b295c-3603-46fa-9eac-0eba0f8193e8)
+
+
+Given the root of a binary tree, return its maximum depth.
+
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+ 
+
+Example 1:
+
+
+Input: root = [3,9,20,null,null,15,7]
+Output: 3
+
+</details>
+
+#### 2. Invert Binary Tree
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/2e77b39f-5f0c-49c8-a1ed-ed051eb6b29c)
+
+Given the root of a binary tree, invert the tree, and return its root.
+
+
+Example 3:
+
+
+Input: root = [4,2,7,1,3,6,9]
+Output: [4,7,2,9,6,3,1]
+
+
+
+</details>
+
+#### 4. Symmetric Tree 
+
+<details>
+    
+<summary>Show content</summary>
+
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/91baa45c-0467-4318-9b57-2017ea504fc5)
+
+Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+
+Example 1:
+
+
+Input: root = [1,2,2,3,4,4,3]
+Output: true
+
+
+</details>
+
+
+#### 5. Construct Binary Tree from Preorder and Inorder Traversal
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/22f73fe5-ea09-4e15-83a9-a63d66738aac)
+
+Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
+
+Example 1:
+
+Input: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
+Output: [3,9,20,null,null,15,7]
+
+
+</details>
+
+
+#### 6. Populating Next Right Pointers in Each Node II 
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/0e77a420-33cf-4028-8afc-47660968cd21)
+
+Given a binary tree
+
+struct Node {
+  int val;
+  Node *left;
+  Node *right;
+  Node *next;
+}
+Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL.
+
+Initially, all next pointers are set to NULL.
+
+
+
+Example 1:
+
+
+Input: root = [1,2,3,4,5,null,7]
+Output: [1,#,2,3,#,4,5,7,#]
+Explanation: Given the above binary tree (Figure A), your function should populate each next pointer to point to its next right node, just like in Figure B. The serialized output is in level order as connected by the next pointers, with '#' signifying the end of each level.
+
+
+</details>
+
+
+
+
+
 ## Binary Tree BFS
 ## Binary Search Tree
 ## Graph
