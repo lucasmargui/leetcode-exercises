@@ -662,6 +662,53 @@ Explanation: Given the above binary tree (Figure A), your function should popula
 
 
 ## Binary Tree BFS
+
+The Breadth-First Search (BFS) technique in binary trees is an exploration method that visits all nodes at a level before moving to the next level. Unlike Depth-First Search (DFS), which follows a branch to the end before going back and exploring other branches, BFS explores the tree layer by layer.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/404df9dd-1098-4f91-b082-ca5f32585161)
+
+#### 1. Binary Tree Right Side View
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/cc1f9df6-9917-4bee-87a8-db5b3e405519)
+
+Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
+
+Example 1:
+
+
+Input: root = [1,2,3,null,5,null,4]
+Output: [1,3,4]
+
+
+</details>
+
+#### 2. Average of Levels in Binary Tree
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/45ca4e69-5e50-4ea4-b2a1-3120dab9b2c1)
+
+Given the root of a binary tree, return the average value of the nodes on each level in the form of an array. Answers within 10-5 of the actual answer will be accepted.
+ 
+
+Example 1:
+
+
+Input: root = [3,9,20,null,null,15,7]
+Output: [3.00000,14.50000,11.00000]
+Explanation: The average value of nodes on level 0 is 3, on level 1 is 14.5, and on level 2 is 11.
+Hence return [3, 14.5, 11].
+
+
+</details>
+
+
 ## Binary Search Tree
 ## Graph
 ## Graph BFS
