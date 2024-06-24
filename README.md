@@ -389,6 +389,142 @@ Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
 </details>
 
 ## Linked List
+
+A linked list is a linear data structure that consists of a sequence of elements, where each element is a node that contains a value and a pointer to the next node in the sequence. Unlike arrays, linked lists do not store elements in contiguous positions in memory, which allows dynamic and efficient memory allocation, as well as facilitating the insertion and removal of elements.
+
+- Data (val): The value stored in the node.
+- Pointer (Next): A reference (or pointer) to the next node in the list.
+- Head: The linked list has a special pointer called the head, which points to the first node in the list. If the list is empty, the head will point to null.
+
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/17f9b50d-de9f-4812-bf8b-2be64febe37f)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/39917fca-1baa-4ab2-a41b-a95cb0257965)
+
+
+
+#### 1. Merge Two Sorted Lists
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/ce2b5470-e13f-4bb0-970b-ab2109fbccd2)
+
+You are given the heads of two sorted linked lists list1 and list2.
+
+Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+Return the head of the merged linked list.
+
+
+Example 1:
+
+
+Input: list1 = [1,2,4], list2 = [1,3,4]
+Output: [1,1,2,3,4,4]
+
+</details>
+
+#### 2. Add Two Numbers
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/3fbf553b-3382-4efb-8838-6666efcef939)
+
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+ 
+
+Example 1:
+
+
+Input: l1 = [2,4,3], l2 = [5,6,4]
+Output: [7,0,8]
+Explanation: 342 + 465 = 807.
+
+</details>
+
+
+#### 2. Remove Nth Node From End of List
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/ffb3b558-4bbe-46d4-ba7b-e2910daf2410)
+
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
+
+ 
+
+Example 1:
+
+
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
+
+
+</details>
+
+#### 3. Reverse Linked List II
+
+<details>
+
+<summary>Show content</summary>
+
+Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
+
+
+Example 1:
+
+
+Input: head = [1,2,3,4,5], left = 2, right = 4
+Output: [1,4,3,2,5]
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e76e8a25-fb0f-4f7f-937c-3144f7837903)
+
+
+
+</details>
+
+#### 4. Copy List with Random Pointer
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/f8b5ba17-a70a-434a-987b-9bb4a21ff5cc)
+
+A linked list of length n is given such that each node contains an additional random pointer, which could point to any node in the list, or null.
+
+Construct a deep copy of the list. The deep copy should consist of exactly n brand new nodes, where each new node has its value set to the value of its corresponding original node. Both the next and random pointer of the new nodes should point to new nodes in the copied list such that the pointers in the original list and copied list represent the same list state. None of the pointers in the new list should point to nodes in the original list.
+
+For example, if there are two nodes X and Y in the original list, where X.random --> Y, then for the corresponding two nodes x and y in the copied list, x.random --> y.
+
+Return the head of the copied linked list.
+
+The linked list is represented in the input/output as a list of n nodes. Each node is represented as a pair of [val, random_index] where:
+
+val: an integer representing Node.val
+random_index: the index of the node (range from 0 to n-1) that the random pointer points to, or null if it does not point to any node.
+Your code will only be given the head of the original linked list.
+
+ 
+
+Example 1:
+
+
+Input: head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
+
+
+</details>
+
 ## Binary Tree General
 ## Binary Tree BFS
 ## Binary Search Tree
