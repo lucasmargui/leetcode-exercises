@@ -309,7 +309,84 @@ Explanation: The balloons can be burst by 2 arrows:
 
 
 
+## Stack
 
+Stack is a linear data structure that follows the LIFO (Last In, First Out) principle, where the last element inserted is the first to be removed. The basic operations performed on a stack are:
+
+- Push: Adds an element to the top of the stack.
+- Pop: Removes the top element from the stack.
+- Peek/Top: Returns the top element of the stack without removing it.
+- IsEmpty: Checks if the stack is empty.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/2ffa7403-95da-4a0e-97cf-18b8e71eb6bb)
+
+
+#### 1. Valid Parentheses
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/b55e1ffe-97a3-44c7-a578-245362413bcd)
+
+
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+ 
+Example 2:
+
+Input: s = "()[]{}"
+Output: true
+
+</details>
+
+
+
+#### 1. Evaluate Reverse Polish Notation
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/fad13c86-e9eb-4dd0-8f4a-5291fbd4e42b)
+
+You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.
+
+Evaluate the expression. Return an integer that represents the value of the expression.
+
+Note that:
+
+The valid operators are '+', '-', '*', and '/'.
+Each operand may be an integer or another expression.
+The division between two integers always truncates toward zero.
+There will not be any division by zero.
+The input represents a valid arithmetic expression in a reverse polish notation.
+The answer and all the intermediate calculations can be represented in a 32-bit integer.
+ 
+
+Example 2:
+
+Input: tokens = ["4","13","5","/","+"]
+Output: 6
+Explanation: (4 + (13 / 5)) = 6
+Example 3:
+
+Input: tokens = ["10","6","9","3","+","-11","*","/","*","17","+","5","+"]
+Output: 22
+Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
+= ((10 * (6 / (12 * -11))) + 17) + 5
+= ((10 * (6 / -132)) + 17) + 5
+= ((10 * 0) + 17) + 5
+= (0 + 17) + 5
+= 17 + 5
+= 22
+
+</details>
 
 ## Linked List
 ## Binary Tree General
