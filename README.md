@@ -228,6 +228,89 @@ Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefor
 
 
 ## Intervals
+
+The intervals technique is used in data structures to store and query ranges of values ​​efficiently. This technique is particularly useful in problems involving time intervals, numeric intervals, or any continuous intervals where you need to make quick queries to check for overlaps or to find specific intervals.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/ab89e1d1-17d0-48bb-85c1-d0c5fd4aba9f)
+
+
+
+#### 1. Merge Intervals
+
+<details>
+    
+<summary>Show content</summary>
+
+Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+
+
+Example 1:
+
+Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
+Output: [[1,6],[8,10],[15,18]]
+Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e2fa8197-6dd2-46e2-9508-9b5276faffbb)
+
+</details>
+
+
+#### 2. Insert Interval
+
+<details>
+    
+<summary>Show content</summary>
+
+You are given an array of non-overlapping intervals intervals where intervals[i] = [starti, endi] represent the start and the end of the ith interval and intervals is sorted in ascending order by starti. You are also given an interval newInterval = [start, end] that represents the start and end of another interval.
+
+Insert newInterval into intervals such that intervals is still sorted in ascending order by starti and intervals still does not have any overlapping intervals (merge overlapping intervals if necessary).
+
+Return intervals after the insertion.
+
+Note that you don't need to modify intervals in-place. You can make a new array and return it.
+
+ 
+
+Example 1:
+
+Input: intervals = [[1,3],[6,9]], newInterval = [2,5]
+Output: [[1,5],[6,9]]
+
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/de681cfd-a6c2-4dba-b67c-0b2ee24332c8)
+
+</details>
+
+#### 3. Minimum Number of Arrows to Burst Balloons
+
+<details>
+    
+<summary>Show content</summary>
+
+There are some spherical balloons taped onto a flat wall that represents the XY-plane. The balloons are represented as a 2D integer array points where points[i] = [xstart, xend] denotes a balloon whose horizontal diameter stretches between xstart and xend. You do not know the exact y-coordinates of the balloons.
+
+Arrows can be shot up directly vertically (in the positive y-direction) from different points along the x-axis. A balloon with xstart and xend is burst by an arrow shot at x if xstart <= x <= xend. There is no limit to the number of arrows that can be shot. A shot arrow keeps traveling up infinitely, bursting any balloons in its path.
+
+Given the array points, return the minimum number of arrows that must be shot to burst all balloons.
+
+ 
+
+Example 1:
+
+Input: points = [[10,16],[2,8],[1,6],[7,12]]
+Output: 2
+Explanation: The balloons can be burst by 2 arrows:
+- Shoot an arrow at x = 6, bursting the balloons [2,8] and [1,6].
+- Shoot an arrow at x = 11, bursting the balloons [10,16] and [7,12].
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/1f1f0ed7-831d-4d10-98e9-069d297df09b)
+
+</details>
+
+
+
+
+
 ## Linked List
 ## Binary Tree General
 ## Binary Tree BFS
