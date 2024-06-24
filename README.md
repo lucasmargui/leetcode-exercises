@@ -179,6 +179,54 @@ Breadth-First Search (BFS) is a search algorithm used to explore graphs or trees
 
 A HashMap is a data structure that associates keys with values. It is implemented using a hash table that allows fast data retrieval.
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/4c716997-7a55-4f2b-b8e9-1bba7d8c1708)
+
+
+
+#### 1. Group Anagrams
+
+<details>
+    
+<summary>Show content</summary>
+
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+Example 1:
+
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/01e21e2a-e6b9-4c02-a8a4-cf6cc899a74f)
+
+</details>
+
+#### 2. Longest Consecutive Sequence
+
+<details>
+    
+<summary>Show content</summary>
+
+Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
+
+You must write an algorithm that runs in O(n) time.
+
+ 
+
+Example 1:
+
+Input: nums = [100,4,200,1,3,2]
+Output: 4
+Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a6cade8e-6d4f-4f12-a6f3-2a4c188d4703)
+
+</details>
+
+
+
+
 ## Intervals
 ## Linked List
 ## Binary Tree General
