@@ -957,9 +957,86 @@ Explanation: One shortest transformation sequence is "hit" -> "hot" -> "dot" -> 
 
 </details>
 
-
-## Trie
 ## Backtracking
+
+Backtracking is a search technique that attempts to solve problems by trial and error, going back (backtracking) when a solution cannot be completed. It is widely used to solve decision problems such as puzzles, constraint satisfaction problems, and combinations. The algorithm explores all possible solutions, building them incrementally and abandoning (backtracking) a solution as soon as it determines that it cannot lead to a valid final solution.
+
+How it works
+- Choose an option: Try to solve part of the problem.
+- Check validity: Check whether the current choice can lead to a valid solution.
+- Recursive Decision: If valid, proceed to solve the next part of the problem recursively.
+- Backtrack: If the current choice does not lead to a valid solution, backtrack and try another option.
+- Complete Solution: If all parts are resolved, a solution has been found
+
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/eafc13f6-bb5c-4d80-bf69-dcd8421dc9c6)
+
+
+#### 1. Combinations
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/1a7ea4d2-59be-4739-960f-36bb6009ed12)
+
+
+Given two integers n and k, return all possible combinations of k numbers chosen from the range [1, n].
+
+You may return the answer in any order.
+
+ 
+
+Example 1:
+
+Input: n = 4, k = 2
+Output: [[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]]
+Explanation: There are 4 choose 2 = 6 total combinations.
+Note that combinations are unordered, i.e., [1,2] and [2,1] are considered to be the same combination.
+
+</details>
+
+#### 2. Permutations
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/741556a2-f047-4ee8-94f9-90767ed44cf2)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/2aec274b-3797-4fe7-b815-627ea31dc5fe)
+
+Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+
+Example 1:
+
+Input: nums = [1,2,3]
+Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+
+
+
+</details>
+
+#### 3. Generate parenthesis
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/ba656d7f-cfc9-4a19-9ddd-27a246c51510)
+
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+
+Example 1:
+
+Input: n = 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]
+
+</details>
+
+
+
 ## Divid e Conquer
 ## Kadane´s Algorithm
 ## Binary tree
