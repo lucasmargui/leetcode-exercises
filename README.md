@@ -847,6 +847,122 @@ Explanation: There are 4 nodes in the graph.
 
 
 ## Graph BFS
+
+The Breadth-First Search (BFS) technique is widely used in graphs and can be applied to 2D matrices to solve various types of problems, such as finding the shortest path, checking component connectivity, and more. In a 2D matrix, each cell can be considered a node and the connections between adjacent cells represent the edges of the graph.
+
+Description of the Technique
+BFS starts at a source node and explores all its neighbors at the same level before advancing to the next level nodes. This is accomplished using a queue to track the nodes to be explored.
+
+Steps for Implementation:
+
+- Initialization: Start from a starting node (or cell). Mark this node as visited and queue it.
+- Exploration: While the queue is not empty, remove a node from the queue, process it and add all its unvisited neighbors to the queue, marking them as visited.
+- Stopping Condition: Exploration continues until all accessible nodes are processed.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/358fb972-b1a2-4653-af0a-8be1828fb85f)
+
+
+#### 1. Minimum Genetic Mutation
+
+<details>
+    
+<summary>Show content</summary>
+
+A gene string can be represented by an 8-character long string, with choices from 'A', 'C', 'G', and 'T'.
+
+Suppose we need to investigate a mutation from a gene string startGene to a gene string endGene where one mutation is defined as one single character changed in the gene string.
+
+For example, "AACCGGTT" --> "AACCGGTA" is one mutation.
+There is also a gene bank bank that records all the valid gene mutations. A gene must be in bank to make it a valid gene string.
+
+Given the two gene strings startGene and endGene and the gene bank bank, return the minimum number of mutations needed to mutate from startGene to endGene. If there is no such a mutation, return -1.
+
+Note that the starting point is assumed to be valid, so it might not be included in the bank.
+
+ 
+
+Example 1:
+
+Input: startGene = "AACCGGTT", endGene = "AAACGGTA", bank = ["AACCGGTA","AACCGCTA","AAACGGTA"]
+Output: 2
+
+
+</details>
+
+#### 2. Snakes and Ladders
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/0824334e-6490-49f5-a61c-8487688fed39)
+
+
+ou are given an n x n integer matrix board where the cells are labeled from 1 to n2 in a Boustrophedon style starting from the bottom left of the board (i.e. board[n - 1][0]) and alternating direction each row.
+
+You start on square 1 of the board. In each move, starting from square curr, do the following:
+
+Choose a destination square next with a label in the range [curr + 1, min(curr + 6, n2)].
+This choice simulates the result of a standard 6-sided die roll: i.e., there are always at most 6 destinations, regardless of the size of the board.
+If next has a snake or ladder, you must move to the destination of that snake or ladder. Otherwise, you move to next.
+The game ends when you reach the square n2.
+A board square on row r and column c has a snake or ladder if board[r][c] != -1. The destination of that snake or ladder is board[r][c]. Squares 1 and n2 do not have a snake or ladder.
+
+Note that you only take a snake or ladder at most once per move. If the destination to a snake or ladder is the start of another snake or ladder, you do not follow the subsequent snake or ladder.
+
+For example, suppose the board is [[-1,4],[-1,3]], and on the first move, your destination square is 2. You follow the ladder to square 3, but do not follow the subsequent ladder to 4.
+Return the least number of moves required to reach the square n2. If it is not possible to reach the square, return -1.
+
+ 
+
+Example 1:
+
+
+Input: board = [[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]
+Output: 4
+Explanation: 
+In the beginning, you start at square 1 (at row 5, column 0).
+You decide to move to square 2 and must take the ladder to square 15.
+You then decide to move to square 17 and must take the snake to square 13.
+You then decide to move to square 14 and must take the ladder to square 35.
+You then decide to move to square 36, ending the game.
+This is the lowest possible number of moves to reach the last square, so return 4.
+
+</details>
+
+
+#### 3. Word Ladder
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/5e19e504-f6ad-4144-8221-840f407e45f7)
+
+
+A transformation sequence from word beginWord to word endWord using a dictionary wordList is a sequence of words beginWord -> s1 -> s2 -> ... -> sk such that:
+
+Every adjacent pair of words differs by a single letter.
+Every si for 1 <= i <= k is in wordList. Note that beginWord does not need to be in wordList.
+sk == endWord
+Given two words, beginWord and endWord, and a dictionary wordList, return the number of words in the shortest transformation sequence from beginWord to endWord, or 0 if no such sequence exists.
+
+ 
+
+Example 1:
+
+Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
+Output: 5
+Explanation: One shortest transformation sequence is "hit" -> "hot" -> "dot" -> "dog" -> cog", which is 5 words long.
+Example 2:
+
+Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]
+Output: 0
+Explanation: The endWord "cog" is not in wordList, therefore there is no valid transformation sequence.
+
+</details>
+
+
 ## Trie
 ## Backtracking
 ## Divid e Conquer
