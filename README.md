@@ -710,6 +710,35 @@ Hence return [3, 14.5, 11].
 
 
 ## Binary Search Tree
+
+The Binary Search Tree (BST) is a data structure in the form of a binary tree, where each node has a maximum of two children, and is organized in such a way that, for each node:
+
+The node values ​​in the left subtree are less than the node value.
+The node values ​​in the right subtree are greater than the node value.
+This property facilitates the search, insertion and removal of elements in the tree, making these operations more efficient, generally with O(log n) complexity on average.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/da4bc846-e9c8-4827-84a9-32b856a9c5c9)
+
+
+#### 1. Kth Smallest Element in a BST
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/c01345df-3002-4b31-9a1f-e1661b3e39d1)
+
+
+Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree.
+
+Example 1:
+
+Input: root = [3,1,4,null,2], k = 1
+Output: 1
+
+</details>
+
+
 ## Graph
 ## Graph BFS
 ## Trie
