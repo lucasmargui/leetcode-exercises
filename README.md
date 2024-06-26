@@ -1047,13 +1047,39 @@ The Divide and Conquer approach can be divided into three main steps:
 - Achievement: Solve subproblems recursively. If the subproblems are small enough, solve them directly.
 - Combination: Combining the solutions of the subproblems to obtain the solution to the original problem.
 
+ 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e3a8acb7-01d5-47b9-b048-8fe7ea3b7c88)
+
+
+
+    
+
+
+    
+#### 1. Splitting linked list
+
+<details>
+<summary>Show content</summary>
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a7b30bca-06f9-4d00-b91e-caa646645ac9)
 
+</details>
+
+#### 2. Binary Search
 
 
-#### 1. Sort List
+<details>
+<summary>Show content</summary>
+
+Binary search is an algorithm for finding an element in a sorted array by repeatedly dividing the part of the array that can contain the element, until reducing the possible locations to just one.
+
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d1a735c3-724a-4dad-b285-085c365fbba7)
+
+</details>
+
+
+#### 3. Sort Linked List
 
 <details>
     
