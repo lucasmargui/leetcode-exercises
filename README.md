@@ -1037,7 +1037,56 @@ Output: ["((()))","(()())","(())()","()(())","()()()"]
 
 
 
-## Divid e Conquer
+## Divide and Conquer
+
+The "Divide and Conquer" technique is an algorithmic approach that involves dividing a problem into smaller, simpler subproblems, solving each of these subproblems individually, and then combining the subproblems' solutions to solve the problem. original problem. This technique is especially useful for solving complex problems efficiently, both in terms of time and space.
+
+The Divide and Conquer approach can be divided into three main steps:
+
+- Division: Divide the problem into smaller subproblems.
+- Achievement: Solve subproblems recursively. If the subproblems are small enough, solve them directly.
+- Combination: Combining the solutions of the subproblems to obtain the solution to the original problem.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e3a8acb7-01d5-47b9-b048-8fe7ea3b7c88)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a7b30bca-06f9-4d00-b91e-caa646645ac9)
+
+
+
+#### 1. Sort List
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a20aee79-1b4d-4925-841c-e9d5fc52fdb5)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/63442bec-71ee-4a0f-abb7-e42f7bd8c196)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a4fb122b-bd01-40f7-b516-6a6ec6884bf7)
+
+
+- Base Case Check:
+    The sortList function starts by checking if the list is either empty or contains only one node. If either condition is true, it returns the list as it is already sorted:
+
+- Splitting the List:
+    The getMid function uses the "tortoise and hare" algorithm, where slow moves one step at a time and fast moves two steps at a time:
+    By the time fast reaches the end of the list, slow is at the midpoint. This effectively splits the list into two halves.
+
+- Adjusting the Pointers:
+    After getting the midpoint, the list is split into two halves:
+    right is adjusted to point to the start of the second half of the list by temporarily storing the next node of right and setting right.next to null to break the list into two separate parts.
+  
+- Recursive Sorting:
+     Each half of the list is recursively sorted:
+     left remains as the head of the first half, and right is the head of the second half. These halves are recursively passed back into sortList, which continues to split them further until each sublist has one or no elements.
+
+- Merging the Sorted Halves:
+    Finally, the sorted halves are merged back together using the merge function:
+
+
+</details>
+
 ## Kadane´s Algorithm
 ## Binary tree
 ## Bit Manipulation
