@@ -1114,6 +1114,13 @@ Binary search is an algorithm for finding an element in a sorted array by repeat
 </details>
 
 ## Kadane´s Algorithm
+
+The Kadane technique is an algorithm used to solve the problem of finding the subarray with the largest sum in an array of integers. This problem is known as the "maximum subarray problem". Kadane's algorithm is efficient, with time complexity 
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/5808b4d6-a744-4832-ba0a-39a4254f69e1)
+
+
+
 ## Binary tree
 ## Bit Manipulation
 ## One Dimensional Dynamic Programing
