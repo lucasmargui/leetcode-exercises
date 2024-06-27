@@ -1323,8 +1323,98 @@ Output: 4
 
 
 
-## One Dimensional Dynamic Programing
-## Multidimensional Dynamic Programing
+## Dynamic Programing 
+
+Dynamic Programming (DP) is a method used to solve complex problems by dividing them into smaller subproblems and storing the solutions of these subproblems to avoid unnecessary recalculations. Essentially, it is useful in problems where the optimal solutions to subproblems can be combined to find the optimal solution to the larger problem.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/158ff97f-2ad3-47e3-b35c-f8c02d1d3975)
+
+
+
+#### House Robber
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/da056148-9e72-4a9c-bf1e-37c4d69165f5)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/b29a369f-9ff9-48aa-a0eb-b0a3ac8e9a4f)
+
+
+
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+
+Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.
+
+ 
+
+Example 1:
+
+Input: nums = [1,2,3,1]
+Output: 4
+Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
+Total amount you can rob = 1 + 3 = 4.
+
+
+</details>
+
+#### Word Break
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d2430e6f-f0d9-457e-ab6a-1d7fdd018e96)
+
+Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.
+
+Note that the same word in the dictionary may be reused multiple times in the segmentation.
+
+ 
+
+Example 1:
+
+Input: s = "leetcode", wordDict = ["leet","code"]
+Output: true
+Explanation: Return true because "leetcode" can be segmented as "leet code".
+Example 2:
+
+Input: s = "applepenapple", wordDict = ["apple","pen"]
+Output: true
+Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
+Note that you are allowed to reuse a dictionary word.
+Example 3:
+
+Input: s = "catsandog", wordDict = ["cats","dog","sand","and","cat"]
+Output: false
+
+
+
+</details>
+
+#### Coin Change
+
+<details>
+    
+<summary>Show content</summary>
+
+
+</details>
+
+#### Longest Increasing Subsequence
+
+<details>
+    
+<summary>Show content</summary>
+
+
+</details>
+
+
+
+
+## Dynamic Programing - Multidimensional 
 
 
 
