@@ -1,4 +1,4 @@
-# Leetcode 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d1b44e2b-6bcd-487d-badb-f8c2a6794522)# Leetcode 
 
 Online platform for coding interview preparation and the service provides coding and algorithmic problems intended for users to practice coding.
 
@@ -1230,6 +1230,99 @@ Explanation: The original array was [1,2,3,4,5] rotated 3 times.
 </details>
 
 ## Bit Manipulation
+
+Bit manipulation is a technique used to perform operations directly on the individual bits of a variable. This is extremely useful in various areas of computing, such as cryptography, data optimization, networking, and algorithm optimization, where performance is critical. Common bit manipulation operations include AND, OR, XOR, NOT, bit shifts, and bit masking.
+
+Examples of bit manipulation operations:
+
+- AND (&): Used to clear specific bits
+- OR (|): Used to set specific bits.
+- XOR (^): Used to invert specific bits.
+- NOT (~): Used to invert all bits.
+- Left (<<) and right (>>) shift: Used for quick multiplication or division by powers of two.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/cecd896e-c762-4459-b320-6c3860a4f10f)
+
+#### 1. Add Binary
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/c1ab3445-dfc0-460a-9376-cece63f16fd6)
+
+
+Given two binary strings a and b, return their sum as a binary string.
+
+Example 1:
+
+Input: a = "11", b = "1"
+Output: "100"
+
+- If the sum of the carry with the current bits is equal to 0, it means that it did not carry a previous sum and the current 2 bits are 0
+
+- if the sum of the carry with the current bits is equal to 1 or one of the current bits is equal to 1 or it carried the sum of 2 previous bits that exceeded 1
+
+- if the sum of carry is equal to 2 it means either carry is equal to 0 and the 2 bits are equal to 1 or one of the bits is equal to 1 and carry already carried this previous sum
+
+- If the sum is equal to 3 it means that the 2 bits are equal to 1 and it already carried a previous sum that exceeded 1
+
+</details>
+
+#### 2. Number of 1 Bits
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/c46667a6-2567-468d-be3f-64427a5160ea)
+
+Write a function that takes the binary representation of a positive integer and returns the number of 
+set bits it has (also known as the Hamming weight).
+
+Example 1:
+
+Input: n = 11
+
+Output: 3
+
+Explanation:
+
+The input binary string 1011 has a total of three set bits.
+
+
+</details>
+
+
+#### 3. Single Number
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/569fdf65-4901-4318-94f2-97d521da984a)
+
+Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+
+ 
+
+Example 1:
+
+Input: nums = [2,2,1]
+Output: 1
+Example 2:
+
+Input: nums = [4,1,2,1,2]
+Output: 4
+
+
+</details>
+
+
+
+
 ## One Dimensional Dynamic Programing
 ## Multidimensional Dynamic Programing
 
