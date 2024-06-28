@@ -1399,6 +1399,26 @@ Output: false
     
 <summary>Show content</summary>
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/b1a3d576-cb36-472d-b910-0c2328c96dd0)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/bf92522b-a0cd-4fcd-a635-a3c472d662ea)
+
+
+
+You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
+
+Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
+
+You may assume that you have an infinite number of each kind of coin.
+
+ 
+
+Example 1:
+
+Input: coins = [1,2,5], amount = 11
+Output: 3
+Explanation: 11 = 5 + 5 + 1
+
 
 </details>
 
@@ -1407,6 +1427,20 @@ Output: false
 <details>
     
 <summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/b8ed91c5-9bf9-4d24-a27d-5c523498d0ee)
+
+Given an integer array nums, return the length of the longest strictly increasing 
+subsequence
+.
+
+
+Example 1:
+
+Input: nums = [10,9,2,5,3,7,101,18]
+Output: 4
+Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
+
 
 
 </details>
