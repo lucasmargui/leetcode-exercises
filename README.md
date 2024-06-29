@@ -1,6 +1,6 @@
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d1b44e2b-6bcd-487d-badb-f8c2a6794522)# Leetcode 
 
-Online platform for coding interview preparation and the service provides coding and algorithmic problems intended for users to practice coding.
+Online platform for coding interview preparation and the service provides coding and algorithmic problems intended for users to practice coding
 
 
 ## Two Pointers
