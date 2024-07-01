@@ -1450,5 +1450,126 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 
 ## Dynamic Programing - Multidimensional 
 
+Dynamic programming (Dynamic Programming - DP) is an optimization technique used to solve complex problems by breaking them into simpler subproblems. The main idea is to store the results of already solved subproblems to avoid unnecessary repetition of calculations, saving execution time.
+
+When we talk about multidimensional dynamic programming, we refer to the application of the technique to problems that involve multiple dimensions or parameters. These problems are generally represented by a multidimensional table (matrix or array) where each entry in the table represents the state of the problem for certain parameter values.
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/1cd8cf2a-20dd-4c7e-9872-3056aa420c99)
+
+#### Minimum path
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/58bafb81-3cdd-411c-b2e7-c88837f111bc)
+
+Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.
+
+You have the following three operations permitted on a word:
+
+Insert a character
+Delete a character
+Replace a character
+ 
+Example 2:
+
+Input: word1 = "intention", word2 = "execution"
+Output: 5
+Explanation: 
+intention -> inention (remove 't')
+inention -> enention (replace 'i' with 'e')
+enention -> exention (replace 'n' with 'x')
+exention -> exection (replace 'n' with 'c')
+exection -> execution (insert 'u')
+ 
+
+
+</details>
+
+#### Triangle
+
+<details>
+    
+<summary>Show content</summary>
+
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/2e9c24d1-ae76-4769-b77a-3b8d126472d8)
+
+
+Given a triangle array, return the minimum path sum from top to bottom.
+
+For each step, you may move to an adjacent number of the row below. More formally, if you are on index i on the current row, you may move to either index i or index i + 1 on the next row.
+
+ 
+
+Example 1:
+
+Input: triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
+Output: 11
+Explanation: The triangle looks like:
+   2
+  3 4
+ 6 5 7
+4 1 8 3
+The minimum path sum from top to bottom is 2 + 3 + 5 + 1 = 11 (underlined above).
+
+</details>
+
+#### Longest Palindromic Substring
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/55792c77-b155-4883-a388-5d9b2d471ba2)
+
+Given a string s, return the longest 
+
+Example 1:
+
+Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
+
+
+</details>
+
+#### Interleaving String
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/4a50b9c9-d555-4ed1-b66a-2ba29cdc3304)
+
+Given strings s1, s2, and s3, find whether s3 is formed by an interleaving of s1 and s2.
+
+An interleaving of two strings s and t is a configuration where s and t are divided into n and m 
+substrings
+ respectively, such that:
+
+s = s1 + s2 + ... + sn
+t = t1 + t2 + ... + tm
+|n - m| <= 1
+The interleaving is s1 + t1 + s2 + t2 + s3 + t3 + ... or t1 + s1 + t2 + s2 + t3 + s3 + ...
+Note: a + b is the concatenation of strings a and b.
+
+ 
+
+Example 1:
+
+
+Input: s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"
+Output: true
+Explanation: One way to obtain s3 is:
+Split s1 into s1 = "aa" + "bc" + "c", and s2 into s2 = "dbbc" + "a".
+Interleaving the two splits, we get "aa" + "dbbc" + "bc" + "a" + "c" = "aadbbcbcac".
+Since s3 can be obtained by interleaving s1 and s2, we return true.
+
+
+
+</details>
+
 
 
