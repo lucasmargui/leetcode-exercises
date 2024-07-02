@@ -134,6 +134,9 @@ Flexibility: Can be used on both arrays and strings.
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/6e6c1792-acc3-4c4e-87ab-a58a6549df33)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/812b883e-b7cb-4986-8b00-9d4c2994fc75)
+
+
 
 #### 1. Minimum Size Subarray Sum
 
