@@ -234,6 +234,9 @@ Depth-First Search (DFS) is an algorithm used to traverse or search for elements
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/75339a61-9373-468f-bc5c-b040b07c4418)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/991cd998-6efa-403a-83b3-9cf3afd18d33)
+
+
 
 ## Breadth-First Search
 
