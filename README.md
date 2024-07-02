@@ -9,6 +9,9 @@ The two-point technique involves using two indices or pointers that traverse a d
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/f3d3b4b9-ad87-4407-9a3d-0c513ca8ad61)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/317996d6-4d6b-4327-8dae-d91f2e79b720)
+
+
 
 One at the beginning and one at the end: The hands start at opposite ends and move toward the center.
 Both from the beginning: One pointer can be slower or faster than the other, useful in problems where the relationship between elements in different positions needs to be checked.
