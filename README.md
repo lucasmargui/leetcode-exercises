@@ -1113,6 +1113,34 @@ Binary search is an algorithm for finding an element in a sorted array by repeat
 
 </details>
 
+#### 4. Different Ways to Add Parentheses
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e8b95303-4c1a-4f3a-91c1-1f4964c13477)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/0e83d2d6-e08c-4bcc-a231-304806ca0ccf)
+
+
+Given a string expression of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. You may return the answer in any order.
+
+The test cases are generated such that the output values fit in a 32-bit integer and the number of different results does not exceed 104.
+
+ 
+Example 1:
+
+Input: expression = "2*3-4*5"
+Output: [-34,-14,-10,-10,10]
+Explanation:
+(2*(3-(4*5))) = -34 
+((2*3)-(4*5)) = -14 
+((2*(3-4))*5) = -10 
+(2*((3-4)*5)) = -10 
+(((2*3)-4)*5) = 10
+
+
 ## Kadane´s Algorithm
 
 The Kadane technique is an algorithm used to solve the problem of finding the subarray with the largest sum in an array of integers. This problem is known as the "maximum subarray problem". Kadane's algorithm is efficient, with time complexity 
