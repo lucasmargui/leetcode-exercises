@@ -833,6 +833,9 @@ A técnica de representação de grafos em matrizes 2D é uma forma comum de mod
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/ed3826b5-f684-4fa9-9c45-69aeb37c3d0b)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/5d4d4544-6de1-4477-9d2f-deacee86b586)
+
+
 
 
 #### 1. Number of Islands 
