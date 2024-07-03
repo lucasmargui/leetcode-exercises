@@ -393,6 +393,9 @@ Stack is a linear data structure that follows the LIFO (Last In, First Out) prin
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/2ffa7403-95da-4a0e-97cf-18b8e71eb6bb)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d1300fa0-087e-4162-bdb8-f2b96903cee1)
+
+
 
 #### 1. Valid Parentheses
 
