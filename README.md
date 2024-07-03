@@ -618,6 +618,12 @@ Basic concepts:
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e85e316a-fa8f-407d-98d8-1514a7201814)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/df813f0d-83cf-4f0a-9210-dc8f96839f0b)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a8b94caf-d04e-46d3-92d8-43e5c9fc5168)
+
+
+
 
 #### 1. Maximum Depth of Binary Tree
 
