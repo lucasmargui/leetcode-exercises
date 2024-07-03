@@ -244,6 +244,9 @@ Breadth-First Search (BFS) is a search algorithm used to explore graphs or trees
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/b9ba6400-73c2-42f7-9b5c-9c90e07d3419)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/62be49f2-517e-446a-835a-c685e4e95cbe)
+
+
 
 ## Hashmap
 
