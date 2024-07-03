@@ -952,6 +952,9 @@ Steps for Implementation:
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/358fb972-b1a2-4653-af0a-8be1828fb85f)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/53a154de-f03e-418b-a706-2e79168c6015)
+
+
 
 #### 1. Minimum Genetic Mutation
 
