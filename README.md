@@ -477,6 +477,9 @@ A linked list is a linear data structure that consists of a sequence of elements
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/39917fca-1baa-4ab2-a41b-a95cb0257965)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/0df1a9b7-ae7d-46a4-8215-5bcfa95fb771)
+
+
 
 
 #### 1. Merge Two Sorted Lists
