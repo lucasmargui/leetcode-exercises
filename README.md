@@ -740,6 +740,9 @@ The Breadth-First Search (BFS) technique in binary trees is an exploration metho
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/404df9dd-1098-4f91-b082-ca5f32585161)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d61f23a3-4830-4ea8-a1e5-500c266f57e8)
+
+
 #### 1. Binary Tree Right Side View
 
 <details>
