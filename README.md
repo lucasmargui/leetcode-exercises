@@ -1148,12 +1148,11 @@ The Divide and Conquer approach can be divided into three main steps:
  
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e3a8acb7-01d5-47b9-b048-8fe7ea3b7c88)
 
-
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/8f7b2d79-bceb-4106-9f81-63cac215dc73)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/acf4d041-6be1-4e51-a2b5-3ecd9d42235e)
 
-
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/886d22ec-9eaa-4099-95fd-fbcbbc2bb469)
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a542103e-9063-4a28-86dc-9b7898c37306)
 
 
 
