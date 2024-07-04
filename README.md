@@ -1065,7 +1065,8 @@ How it works
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/eafc13f6-bb5c-4d80-bf69-dcd8421dc9c6)
 
-![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/01d0777d-2a48-4318-be06-87c96a11a510)
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/72c45d15-35d5-4be4-9496-3eb93ae1d885)
+
 
 
 
