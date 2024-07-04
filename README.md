@@ -1265,6 +1265,9 @@ Binary search is an efficient technique for finding an element in an ordered lis
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e8411db0-2966-4fd8-875e-c6df09374740)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/0cd60a1f-46f3-48cc-b729-c8a5f29fe116)
+
+
 
 #### 1. Search Insert Position
 
