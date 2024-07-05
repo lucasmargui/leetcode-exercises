@@ -1470,6 +1470,9 @@ Dynamic Programming (DP) is a method used to solve complex problems by dividing 
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/158ff97f-2ad3-47e3-b35c-f8c02d1d3975)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/26dbcc97-e6ab-4648-a650-965b601c56b9)
+
+
 
 
 #### House Robber
