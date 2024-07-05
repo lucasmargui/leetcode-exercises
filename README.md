@@ -9,8 +9,15 @@ The two-point technique involves using two indices or pointers that traverse a d
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/f3d3b4b9-ad87-4407-9a3d-0c513ca8ad61)
 
+
+
+
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/317996d6-4d6b-4327-8dae-d91f2e79b720)
 
+</details>
 
 
 One at the beginning and one at the end: The hands start at opposite ends and move toward the center.
@@ -134,7 +141,15 @@ Flexibility: Can be used on both arrays and strings.
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/6e6c1792-acc3-4c4e-87ab-a58a6549df33)
 
+
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/812b883e-b7cb-4986-8b00-9d4c2994fc75)
+
+</details>
+
+
 
 
 
@@ -234,7 +249,14 @@ Depth-First Search (DFS) is an algorithm used to traverse or search for elements
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/75339a61-9373-468f-bc5c-b040b07c4418)
 
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/991cd998-6efa-403a-83b3-9cf3afd18d33)
+
+</details>
+
+
 
 
 
@@ -244,7 +266,15 @@ Breadth-First Search (BFS) is a search algorithm used to explore graphs or trees
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/b9ba6400-73c2-42f7-9b5c-9c90e07d3419)
 
+
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/62be49f2-517e-446a-835a-c685e4e95cbe)
+
+</details>
+
+
 
 
 
@@ -393,7 +423,15 @@ Stack is a linear data structure that follows the LIFO (Last In, First Out) prin
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/2ffa7403-95da-4a0e-97cf-18b8e71eb6bb)
 
+
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d1300fa0-087e-4162-bdb8-f2b96903cee1)
+
+</details>
+
+
 
 
 
@@ -618,9 +656,16 @@ Basic concepts:
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e85e316a-fa8f-407d-98d8-1514a7201814)
 
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/df813f0d-83cf-4f0a-9210-dc8f96839f0b)
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a8b94caf-d04e-46d3-92d8-43e5c9fc5168)
+
+</details>
+
+
 
 
 
@@ -752,7 +797,14 @@ The Breadth-First Search (BFS) technique in binary trees is an exploration metho
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/404df9dd-1098-4f91-b082-ca5f32585161)
 
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d61f23a3-4830-4ea8-a1e5-500c266f57e8)
+
+</details>
+
+
 
 
 #### 1. Binary Tree Right Side View
@@ -833,7 +885,14 @@ A técnica de representação de grafos em matrizes 2D é uma forma comum de mod
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/ed3826b5-f684-4fa9-9c45-69aeb37c3d0b)
 
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/5d4d4544-6de1-4477-9d2f-deacee86b586)
+
+</details>
+
+
 
 
 
@@ -952,7 +1011,14 @@ Steps for Implementation:
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/358fb972-b1a2-4653-af0a-8be1828fb85f)
 
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/53a154de-f03e-418b-a706-2e79168c6015)
+
+</details>
+
+
 
 
 
@@ -1065,7 +1131,14 @@ How it works
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/eafc13f6-bb5c-4d80-bf69-dcd8421dc9c6)
 
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/72c45d15-35d5-4be4-9496-3eb93ae1d885)
+
+</details>
+
+
 
 
 
@@ -1148,11 +1221,18 @@ The Divide and Conquer approach can be divided into three main steps:
  
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e3a8acb7-01d5-47b9-b048-8fe7ea3b7c88)
 
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/8f7b2d79-bceb-4106-9f81-63cac215dc73)
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/acf4d041-6be1-4e51-a2b5-3ecd9d42235e)
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a542103e-9063-4a28-86dc-9b7898c37306)
+
+</details>
+
+
 
 
 
@@ -1265,7 +1345,15 @@ Binary search is an efficient technique for finding an element in an ordered lis
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e8411db0-2966-4fd8-875e-c6df09374740)
 
+
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/0cd60a1f-46f3-48cc-b729-c8a5f29fe116)
+
+</details>
+
+
 
 
 
@@ -1470,7 +1558,16 @@ Dynamic Programming (DP) is a method used to solve complex problems by dividing 
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/158ff97f-2ad3-47e3-b35c-f8c02d1d3975)
 
+
+<details>
+<summary> <h2> Illustrative image </h2></summary>
+    
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/26dbcc97-e6ab-4648-a650-965b601c56b9)
+
+</details>
+
+
+
 
 
 
