@@ -9,6 +9,9 @@ The two-point technique involves using two indices or pointers that traverse a d
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/f3d3b4b9-ad87-4407-9a3d-0c513ca8ad61)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/317996d6-4d6b-4327-8dae-d91f2e79b720)
+
+
 
 One at the beginning and one at the end: The hands start at opposite ends and move toward the center.
 Both from the beginning: One pointer can be slower or faster than the other, useful in problems where the relationship between elements in different positions needs to be checked.
@@ -36,7 +39,39 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
   <details>
   <summary>Show content</summary>
     
-  ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/017f15e7-f93e-4a17-a68d-96f09c085797)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/4ca838ac-8a94-4317-ba45-a4b4ed44a140)
+
+Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+
+Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:
+
+Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The remaining elements of nums are not important as well as the size of nums.
+Return k.
+Custom Judge:
+
+The judge will test your solution with the following code:
+
+int[] nums = [...]; // Input array
+int[] expectedNums = [...]; // The expected answer with correct length
+
+int k = removeDuplicates(nums); // Calls your implementation
+
+assert k == expectedNums.length;
+for (int i = 0; i < k; i++) {
+    assert nums[i] == expectedNums[i];
+}
+If all assertions pass, then your solution will be accepted.
+
+ 
+
+Example 1:
+
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]
+Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+
     
   </details>
 
@@ -45,6 +80,18 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
   <summary>Show content</summary>
   
   ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/37f667cb-924e-47b1-8b0b-18ccb91ae07c)
+
+ A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+
+Given a string s, return true if it is a palindrome, or false otherwise.
+
+ 
+
+Example 1:
+
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
+Explanation: "amanaplanacanalpanama" is a palindrome.
   
   </details>
 
@@ -54,6 +101,23 @@ Initialize two pointers: one at the beginning (left) and one at the end (right) 
   <summary>Show content</summary>
   
   ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/3233fc0d-e177-455f-89c5-002263d6e3cc)
+
+You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return the maximum amount of water a container can store.
+
+Notice that you may not slant the container.
+
+ 
+
+Example 1:
+
+
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
   
   </details>
 
@@ -69,6 +133,9 @@ Applications: Often used to solve subarray sum problems, find substrings, or any
 Flexibility: Can be used on both arrays and strings.
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/6e6c1792-acc3-4c4e-87ab-a58a6549df33)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/812b883e-b7cb-4986-8b00-9d4c2994fc75)
+
 
 
 #### 1. Minimum Size Subarray Sum
@@ -167,12 +234,18 @@ Depth-First Search (DFS) is an algorithm used to traverse or search for elements
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/75339a61-9373-468f-bc5c-b040b07c4418)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/991cd998-6efa-403a-83b3-9cf3afd18d33)
+
+
 
 ## Breadth-First Search
 
 Breadth-First Search (BFS) is a search algorithm used to explore graphs or trees. It starts at a root node and explores all its neighbors at the current level before moving to neighbors at the next level. This means that BFS visits all nodes at a level before going to the next deeper level.
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/b9ba6400-73c2-42f7-9b5c-9c90e07d3419)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/62be49f2-517e-446a-835a-c685e4e95cbe)
+
 
 
 ## Hashmap
@@ -320,6 +393,9 @@ Stack is a linear data structure that follows the LIFO (Last In, First Out) prin
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/2ffa7403-95da-4a0e-97cf-18b8e71eb6bb)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d1300fa0-087e-4162-bdb8-f2b96903cee1)
+
+
 
 #### 1. Valid Parentheses
 
@@ -400,6 +476,9 @@ A linked list is a linear data structure that consists of a sequence of elements
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/17f9b50d-de9f-4812-bf8b-2be64febe37f)
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/39917fca-1baa-4ab2-a41b-a95cb0257965)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/0df1a9b7-ae7d-46a4-8215-5bcfa95fb771)
+
 
 
 
@@ -539,6 +618,12 @@ Basic concepts:
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e85e316a-fa8f-407d-98d8-1514a7201814)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/df813f0d-83cf-4f0a-9210-dc8f96839f0b)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a8b94caf-d04e-46d3-92d8-43e5c9fc5168)
+
+
+
 
 #### 1. Maximum Depth of Binary Tree
 
@@ -667,6 +752,9 @@ The Breadth-First Search (BFS) technique in binary trees is an exploration metho
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/404df9dd-1098-4f91-b082-ca5f32585161)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/d61f23a3-4830-4ea8-a1e5-500c266f57e8)
+
+
 #### 1. Binary Tree Right Side View
 
 <details>
@@ -744,6 +832,9 @@ Output: 1
 A técnica de representação de grafos em matrizes 2D é uma forma comum de modelar grafos usando estruturas de dados. Em particular, essa abordagem utiliza uma matriz de adjacência, que é uma matriz bidimensional (2D)
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/ed3826b5-f684-4fa9-9c45-69aeb37c3d0b)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/5d4d4544-6de1-4477-9d2f-deacee86b586)
+
 
 
 
@@ -861,6 +952,9 @@ Steps for Implementation:
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/358fb972-b1a2-4653-af0a-8be1828fb85f)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/53a154de-f03e-418b-a706-2e79168c6015)
+
+
 
 #### 1. Minimum Genetic Mutation
 
@@ -971,6 +1065,10 @@ How it works
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/eafc13f6-bb5c-4d80-bf69-dcd8421dc9c6)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/72c45d15-35d5-4be4-9496-3eb93ae1d885)
+
+
+
 
 #### 1. Combinations
 
@@ -1050,6 +1148,18 @@ The Divide and Conquer approach can be divided into three main steps:
  
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e3a8acb7-01d5-47b9-b048-8fe7ea3b7c88)
 
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/8f7b2d79-bceb-4106-9f81-63cac215dc73)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/acf4d041-6be1-4e51-a2b5-3ecd9d42235e)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/a542103e-9063-4a28-86dc-9b7898c37306)
+
+
+
+
+
+
+
 
 
     
@@ -1113,6 +1223,34 @@ Binary search is an algorithm for finding an element in a sorted array by repeat
 
 </details>
 
+#### 4. Different Ways to Add Parentheses
+
+<details>
+    
+<summary>Show content</summary>
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e8b95303-4c1a-4f3a-91c1-1f4964c13477)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/0e83d2d6-e08c-4bcc-a231-304806ca0ccf)
+
+
+Given a string expression of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. You may return the answer in any order.
+
+The test cases are generated such that the output values fit in a 32-bit integer and the number of different results does not exceed 104.
+
+ 
+Example 1:
+
+Input: expression = "2*3-4*5"
+Output: [-34,-14,-10,-10,10]
+Explanation:
+(2*(3-(4*5))) = -34 
+((2*3)-(4*5)) = -14 
+((2*(3-4))*5) = -10 
+(2*((3-4)*5)) = -10 
+(((2*3)-4)*5) = 10
+
+
 ## Kadane´s Algorithm
 
 The Kadane technique is an algorithm used to solve the problem of finding the subarray with the largest sum in an array of integers. This problem is known as the "maximum subarray problem". Kadane's algorithm is efficient, with time complexity 
@@ -1126,6 +1264,9 @@ The Kadane technique is an algorithm used to solve the problem of finding the su
 Binary search is an efficient technique for finding an element in an ordered list. The algorithm repeatedly divides the search space in half until the element is found or the search space becomes empty. Binary search is much faster than linear search, especially on large data sets, and its time complexity is O(log n).
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/e8411db0-2966-4fd8-875e-c6df09374740)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/0cd60a1f-46f3-48cc-b729-c8a5f29fe116)
+
 
 
 #### 1. Search Insert Position
@@ -1328,6 +1469,9 @@ Output: 4
 Dynamic Programming (DP) is a method used to solve complex problems by dividing them into smaller subproblems and storing the solutions of these subproblems to avoid unnecessary recalculations. Essentially, it is useful in problems where the optimal solutions to subproblems can be combined to find the optimal solution to the larger problem.
 
 ![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/158ff97f-2ad3-47e3-b35c-f8c02d1d3975)
+
+![image](https://github.com/lucasmargui/leetcode-exercises/assets/157809964/26dbcc97-e6ab-4648-a650-965b601c56b9)
+
 
 
 
