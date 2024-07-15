@@ -21,17 +21,19 @@
  * @return {ListNode}
  */
 var reverseList = function(head) {
-
-    if(head) retu
-
+  
     var dummy = null;
-
 
     while(head){
 
-        let reverselist = new ListNode(head.val,dummy);
-        dummy = reverselist   
-        head = head.next;
+        var temp = head.next;
+        
+        head.next = dummy;
+
+        dummy = head;
+
+        head = temp;
+
     }
 
     return dummy
