@@ -46,10 +46,9 @@ var orangesRotting = function(grid) {
         const size = queue.length;
 
         for(let i = 0; i < size; i++){
+            
             const [rottenRow,rottenCol,rottenMinutes] = queue.shift();
 
-            
-            
             const key = `${rottenRow},${rottenCol}`;
 
             if(rottenRow < 0 || rottenRow >= rows || rottenCol < 0 || rottenCol >= cols) continue;
