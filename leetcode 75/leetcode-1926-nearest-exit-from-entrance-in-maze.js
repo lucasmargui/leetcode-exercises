@@ -21,36 +21,60 @@
 // Initially, you are at the entrance cell [1,2].
 
 const nearestExit = function (maze, entrance) {
+  
     const rows = maze.length;
-    const columns = maze[0].length;
+    const cols = maze[0].length;
 
-    const queue = [[entrance[0], entrance[1], 0]];
-    const visited = new Set();
-    visited.add(`${entrance[0]},${entrance[1]}`);
+    const startRow = entrance[0];
+    const startCol = entrance[1];
 
-    const directions = [[1, 0], [-1, 0], [0, 1], [0, -1]];
+    var visited = new Set();
+    
 
-    while (queue.length > 0) {
-        const [row, col, steps] = queue.shift();
+    var queue = [[startRow, startCol, 0]];
 
-        if ((row === 0 || row === rows - 1 || col === 0 || col === columns - 1) &&
-            !(row === entrance[0] && col === entrance[1])
-        ) {
-            return steps;
+
+    while(queue.length > 0){
+
+        //1. Get position in queue
+        const [currRow, currCol, currSteps] = queue.shift();
+
+        //2. Key to check if it has already been visited
+        const key = `${currRow},${currCol}`;
+
+        //3. Checks if the position is outside the bounds of the array
+        if(currRow < 0 || currRow >= rows || currCol < 0 || currCol >= cols ){
+            continue;
+        }
+        //4. Check if you found a wall
+        if(maze[currRow][currCol] == "+"){
+            continue;
+        }
+        //5. If you have reached the limits of the array and if it is different from your initial position, 
+        //    it means that you have reached an exit, as we are working with a queue, 
+        //    the first exit found is the one with the lowest number of steps.
+        if( (currRow == 0 || currRow == rows - 1 || currCol == 0 || currCol == cols - 1) && !(currRow == startRow && currCol == startCol) ){
+            return currSteps;
         }
 
-        for (const [dr, dc] of directions) {
-            const newRow = row + dr;
-            const newCol = col + dc;
+        //6. If none of the above conditions are met. 
+        //   it means that we are inside the array and we must add more positions to the left, right, top and bottom
+        if( !(visited.has(key)) ){
 
-            if (newRow >= 0 && newRow < rows && newCol >= 0 && newCol < columns
-                && (!visited.has(`${newRow},${newCol}`)) && (maze[newRow][newCol] === '.')) {
-                queue.push([newRow, newCol, steps + 1]);
-                visited.add(`${newRow},${newCol}`);
-            }
+            visited.add(key);
+
+            const leftPosition = [currRow, currCol - 1, currSteps + 1];
+            const rightPosition = [currRow, currCol + 1, currSteps + 1];
+            const topPosition = [currRow - 1, currCol, currSteps + 1]; 
+            const bottomPosition = [currRow + 1, currCol, currSteps + 1];
+
+            queue.push(leftPosition,rightPosition,topPosition,bottomPosition);
+
         }
 
     }
 
+
     return -1;
+
 };
